@@ -70,22 +70,38 @@ img.social-icon {
     font-size: 16px;
 }
 
-
-
-
-
+#above-footer {
+    text-align: center;
+    background-color: #A5ACAF;
+    padding: 20px 0;
+}
 
 .footer {
 	text-align: center;
-	background-color: #A5ACAF;
+	background-color: #0085CA;
 	font-size: 14px;
 	color: #fff;
-	padding: 30px;
+    padding: 30px 30px 5px 30px;
+}
+
+#socials-footer {
+    padding-bottom: 15px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 742px){
+
+	.nav ul {
+	    list-style-type: none;
+	    padding-left: 3%;
+	    margin-bottom: 0;
+	    float: left;
+	    padding-bottom: 15px;
+	}
 
 
 }
-
-
 
 
 
