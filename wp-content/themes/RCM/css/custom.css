@@ -59,7 +59,18 @@ img.social-icon {
     width: 40px;
 }
 
-#home-content {
+/* PAGE STYLES */
+
+#page-title {
+    margin: 30px auto 0 auto;
+    display: table;
+    font-size: 34px;
+    color: #a5acaf;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.page-content {
     width: 70%;
     margin: 50px auto;
     padding: 30px;
@@ -69,6 +80,23 @@ img.social-icon {
     font-weight: 500;
     font-size: 16px;
 }
+
+.instructors-content {
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.instructors-content img {
+    float: left;
+    margin: 20px 20px 20px 10px;
+}
+
+.instructors-content p {
+    font-size: 14px;
+    font-weight: 400;
+}    
+
+/* FOOTER */
 
 #above-footer {
     text-align: center;

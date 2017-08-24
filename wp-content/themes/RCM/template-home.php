@@ -9,7 +9,7 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				
-				<div id="home-content">
+				<div class="page-content" id="home-content">
 					<?php the_content(); ?>
 				</div>
 
