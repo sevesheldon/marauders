@@ -96,6 +96,69 @@ img.social-icon {
     font-weight: 400;
 }    
 
+
+/* CONTACT PAGE */
+
+/*** CF7 ***/
+
+.wpcf7 {
+    padding-top: 20px !important;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+input[type="number"] {
+    border-radius: 5px;
+    line-height: 2em;
+    width: 100%;    
+}
+
+select.wpcf7-form-control {
+    width: 300px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    line-height: 2em;
+    border-radius: 20px;
+    padding: 2px 90px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px auto 0 auto;
+    display: block;
+    background-color: #17ABFB;
+    box-shadow: 3px 3px 0px #0085ca;
+    border: none;
+}
+
+input.wpcf7-form-control.wpcf7-text {
+    width: 60%
+}
+
+form.wpcf7-form {
+    text-align: center;
+}
+
+input[type="email"] {
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+textarea {
+    border-radius: 5px;
+    border: none;
+}
+
+
+textarea.wpcf7-form-control.wpcf7-textarea { 
+    width: -webkit-fill-available; 
+    /* NOT QUITE SURE HOW THIS WORKS BUT IT RESPONSIVELY CENTERS THE TEXT AREA */
+}
+
+
+
 /* FOOTER */
 
 #above-footer {
@@ -128,8 +191,21 @@ img.social-icon {
 	    padding-bottom: 15px;
 	}
 
+    .page-content {
+        width: 90%;
+    }
+
+    .instructors-content {
+        margin: 10px 0;
+    }
+
+    #instructors-page-content p {
+        margin-bottom: 30px;
+    }
+
 
 }
+
 
 
 
