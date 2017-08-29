@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(../img/background_temp2.png);
+    background-image: url(../img/background_pic1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,12 +15,12 @@ body {
 
 .logo {
     text-align: center;
-    background-color: #A5ACAF;
+    background-color: #D8DADB;
     padding: 30px 0;
 }
 
 .nav {
-    background-color: #0085CA;
+    background-color: #A5ACAF;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -48,7 +48,7 @@ body {
 }
 
 .nav ul li a {
-    color: #D8DADB;
+    color: #fff;
 }
 
 div#socials-header {
@@ -73,7 +73,7 @@ img.social-icon {
 .page-content {
     width: 70%;
     margin: 50px auto;
-    padding: 30px;
+    padding: 30px 25px;
     background-color: rgba(51,51,51,0.65);
     border-radius: 9px;
     color: #fff;
@@ -94,6 +94,8 @@ img.social-icon {
 .instructors-content p {
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.7;
+    margin-left: 20px;
 }    
 
 
@@ -128,8 +130,8 @@ input.wpcf7-form-control.wpcf7-submit {
     font-weight: 600;
     margin: 20px auto 0 auto;
     display: block;
-    background-color: #17ABFB;
-    box-shadow: 3px 3px 0px #0085ca;
+    background-color: #A5ACAF;
+    box-shadow: 3px 3px 0px #818D95;
     border: none;
 }
 
@@ -163,13 +165,13 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 #above-footer {
     text-align: center;
-    background-color: #A5ACAF;
+    background-color: #D8DADB;
     padding: 20px 0;
 }
 
 .footer {
 	text-align: center;
-	background-color: #0085CA;
+	background-color: #A5ACAF;
 	font-size: 14px;
 	color: #fff;
     padding: 30px 30px 5px 30px;
@@ -192,7 +194,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	}
 
     .page-content {
-        width: 90%;
+        width: 91%;
     }
 
     .instructors-content {
