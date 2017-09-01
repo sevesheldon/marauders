@@ -8,21 +8,21 @@
 			<footer class="footer" role="contentinfo">
 
 				<div class="socials" id="socials-footer">
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.facebook.com/rosecitymarauders">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/icons/Facebook.png" alt="facebook" class="social-icon">
 						</a>
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.instagram.com/rosecitymarauders/">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/icons/Instagram.png" alt="instagram" class="social-icon">
 						</a>
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://twitter.com/rcmarauders/">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/icons/Twitter.png" alt="twitter" class="social-icon">
 						</a>
-						<a target="_blank" href="#">	
+<!-- 						<a target="_blank" href="#">	
 							<img src="<?php echo get_template_directory_uri(); ?>/img/icons/Linkedin.png" alt="linkedin" class="social-icon">
 						</a>
 						<a target="_blank" href="#">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/icons/YouTube.png" alt="youtube" class="social-icon">
-						</a>
+						</a> -->
 				</div>
 
 				<!-- copyright -->

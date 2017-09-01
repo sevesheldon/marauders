@@ -59,6 +59,10 @@ img.social-icon {
     width: 40px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* PAGE STYLES */
 
 #page-title {
@@ -89,6 +93,8 @@ img.social-icon {
 .instructors-content img {
     float: left;
     margin: 20px 20px 20px 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .instructors-content p {
@@ -141,6 +147,7 @@ input.wpcf7-form-control.wpcf7-text {
 
 form.wpcf7-form {
     text-align: center;
+    color: #000;
 }
 
 input[type="email"] {
@@ -159,7 +166,13 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     /* NOT QUITE SURE HOW THIS WORKS BUT IT RESPONSIVELY CENTERS THE TEXT AREA */
 }
 
+/* ENROLL CONTACT FORM */
 
+textarea#enroll-textarea {
+    width: 60%;
+    height: 100px;
+    margin-top: 10px;
+}
 
 /* FOOTER */
 
@@ -207,6 +220,10 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
     p.copyright {
         margin: 0 -30px 10px -30px;
+    }
+
+    #enroll-textarea, .enroll-text {
+        width: 90% !important;
     }
 
 
