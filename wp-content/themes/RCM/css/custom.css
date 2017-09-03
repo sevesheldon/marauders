@@ -130,7 +130,7 @@ select.wpcf7-form-control {
 
 input.wpcf7-form-control.wpcf7-submit {
     line-height: 2em;
-    border-radius: 20px;
+    border-radius: 4px;
     padding: 2px 90px;
     font-size: 14px;
     font-weight: 600;
