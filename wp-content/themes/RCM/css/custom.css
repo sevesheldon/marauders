@@ -1,11 +1,12 @@
 
+@import url('https://rsms.me/interface/interface.css');
 
 body {
     background-image: url(../img/background_pic1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*padding-bottom: 18%;*/
+    font-family: Interface, sans-serif !important;
 }
 
 .wrapper {
