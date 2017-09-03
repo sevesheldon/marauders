@@ -48,8 +48,14 @@ body {
     font-weight: 600;
 }
 
+.nav ul li a:hover {
+    color: #484a4b;
+    transition: 200ms all ease-in;
+}
+
 .nav ul li a {
     color: #fff;
+    transition: 200ms all ease-in;
 }
 
 div#socials-header {
@@ -127,12 +133,13 @@ input[type="number"] {
 
 select.wpcf7-form-control {
     width: 300px;
+    height: 40px;
 }
 
 input.wpcf7-form-control.wpcf7-submit {
     line-height: 2em;
     border-radius: 4px;
-    padding: 2px 90px;
+    padding: 8px 90px;
     font-size: 14px;
     font-weight: 600;
     margin: 20px auto 0 auto;
@@ -140,10 +147,18 @@ input.wpcf7-form-control.wpcf7-submit {
     background-color: #A5ACAF;
     box-shadow: 3px 3px 0px #818D95;
     border: none;
+    transition: 200ms all ease-in;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+    transition: 200ms all ease-in;
+    background-color: #62737F;
+    box-shadow: 3px 3px 0px #465C6B;
 }
 
 input.wpcf7-form-control.wpcf7-text {
-    width: 60%
+    width: 60%;
+    height: 45px;
 }
 
 form.wpcf7-form {
@@ -193,6 +208,15 @@ textarea#enroll-textarea {
 
 #socials-footer {
     padding-bottom: 15px;
+}
+
+.copyright a {
+    transition: 200ms all ease-in;
+}
+
+.copyright a:hover {
+    color: #c1c1c1;
+    transition: 200ms all ease-in;
 }
 
 /* MEDIA QUERIES */
