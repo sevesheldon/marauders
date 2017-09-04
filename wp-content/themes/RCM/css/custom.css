@@ -9,6 +9,18 @@ body {
     font-family: Interface, sans-serif !important;
 }
 
+a {
+    color: #e0e0e0 !important;
+    transition: 50ms all ease-in;
+}
+
+h4 a:hover {
+    color: #fff;
+    font-size: larger;
+    transition: 50ms all ease-in;
+    text-decoration: none;
+}
+
 .wrapper {
     max-width: none !important; 
     width: 100% !important; 
@@ -48,26 +60,23 @@ body {
     font-weight: 600;
 }
 
-.nav ul li a:hover {
-    color: #484a4b;
-    transition: 200ms all ease-in;
-}
-
 .nav ul li a {
     color: #fff;
     transition: 200ms all ease-in;
 }
 
-div#socials-header {
+.nav ul li a:hover {
+    color: #484a4b !important;
+    transition: 200ms all ease-in;
+    text-decoration: none;
+}
+
+#socials-header {
     display: inline-block;
 }
 
 img.social-icon {
     width: 40px;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 /* PAGE STYLES */
