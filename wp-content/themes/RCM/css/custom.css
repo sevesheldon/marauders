@@ -21,6 +21,10 @@ h4 a:hover {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .wrapper {
     max-width: none !important; 
     width: 100% !important; 
@@ -77,6 +81,12 @@ h4 a:hover {
 
 img.social-icon {
     width: 40px;
+    transition: 200ms all ease-in;
+}
+
+img.social-icon:hover {
+    width: 45px;
+    transition: 200ms all ease-in;
 }
 
 /* PAGE STYLES */
@@ -220,12 +230,17 @@ textarea#enroll-textarea {
 }
 
 .copyright a {
+    color: #444 !important;
     transition: 200ms all ease-in;
 }
 
 .copyright a:hover {
-    color: #c1c1c1;
+    color: #c1c1c1 !important;
     transition: 200ms all ease-in;
+}
+
+.copyright-mobile {
+    display: none;
 }
 
 /* LANDING PAGE */
@@ -270,6 +285,27 @@ textarea#enroll-textarea {
         width: 90% !important;
     }
 
+
+}
+
+@media screen and (max-width: 500px){
+
+    .copyright {
+        display: none;
+    }
+
+    .copyright-mobile {
+        display: block;
+    }
+    .copyright-mobile a {
+        color: #444 !important;
+        transition: 200ms all ease-in;
+    }
+
+    .copyright-mobile a:hover {
+        color: #c1c1c1 !important;
+        transition: 200ms all ease-in;
+    }
 
 }
 

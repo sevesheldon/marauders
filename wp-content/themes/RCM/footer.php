@@ -31,6 +31,13 @@
 					<a href="http://kentoncodeworks.com/" title="KCW">Kenton Codeworks</a>
 				</p>
 				<!-- /copyright -->
+				<!-- copyright mobile -->
+				<p class="copyright-mobile">
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
+					<br>
+					<a href="http://kentoncodeworks.com/" title="KCW">Kenton Codeworks</a>
+				</p>
+				<!-- /copyright mobile -->
 
 			</footer>
 			<!-- /footer -->
