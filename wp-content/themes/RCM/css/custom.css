@@ -33,7 +33,10 @@ a:hover {
 .logo {
     text-align: center;
     background-color: #fff;
-    padding: 30px 0;
+}
+
+img.logo-img {
+    width: 60%;
 }
 
 .nav {
