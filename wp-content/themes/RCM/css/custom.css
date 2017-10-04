@@ -14,7 +14,7 @@ a {
     transition: 50ms all ease-in;
 }
 
-h4 a:hover {
+h3 a:hover {
     color: #fff;
     font-size: larger;
     transition: 50ms all ease-in;
@@ -32,11 +32,11 @@ a:hover {
 
 .logo {
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
 }
 
 img.logo-img {
-    width: 60%;
+    /*width: 60%; was for Marauders.png*/
 }
 
 .nav {
