@@ -35,7 +35,7 @@
 				<p class="copyright-mobile">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
 					<br>
-					<a href="http://kentoncodeworks.com/" title="KCW">Kenton Codeworks</a>
+					<a href="http://kentoncodeworks.com/" style="font-size: 20px; font-weight: 700;" title="KCW">Kenton Codeworks</a>
 				</p>
 				<!-- /copyright mobile -->
 
